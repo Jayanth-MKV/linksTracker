@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    background: linear-gradient(rgb(23, 93, 255),#fff);
+    background-size: cover;
+    min-width: 400px;
+    min-height: 350px;
+}
+
+#del-btn{
+    display: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #000;
+}
+
+.header h1{
+    color: #000;
+    font-family: 'Comfortaa', cursive;
+    font-size:2.3rem;
+    /* text-shadow: 2px 2px 0 rgb(0, 0, 0); */
+    text-decoration-color: greenyellow;
+}
+
+.savetab-btn{
+    border-radius: 10px;
+    padding: 5px 5px;
+    background-color: #fff;
+    opacity: .8;
+    /* background: linear-gradient(rgb(64, 242, 255),#fff); */
+    font-size: 15px;
+    font-weight: 700;
+}
+
+ul{
+    list-style: none;
+    font-family: 'Comfortaa', cursive;
+}
+
+li{
+    padding: 5px ;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.cnt{
+    color:blue;
+    font-size: 15px;
+    font-weight: 900;
+    border-radius: 50px; ;
+    border: 2px solid blue;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #5f9341;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+.inp{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#input-btn{
+    border-radius: 10px;
+    padding: 5px 5px;
+    background-color: #fff;
+    opacity: .8;
+    /* background: linear-gradient(rgb(64, 242, 255),#fff); */
+    font-weight: 700;
+}
+
+li:hover .del-btn{
+    display: inline !important;
+}
